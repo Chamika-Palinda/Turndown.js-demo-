@@ -3,7 +3,7 @@ var fs = require('fs');
 
 // create an instance of Turndown service
 const turndownService = new TurndownService();
-let filename = "readme.html"
+let filename = "read.html"
 
 fs.readFile(process.cwd() + '/' + filename, function (err, data) {
     if (err) {
